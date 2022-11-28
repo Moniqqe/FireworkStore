@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\Interview.Task\\Interview.FireworkStore.Core\\Interview.FireworkStore.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\Interview.Task\\Interview.FireworkStore.Core\\Interview.FireworkStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Core\\Interview.FireworkStore.Core.csproj",
+        "projectName": "Interview.FireworkStore.Core",
+        "projectPath": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Core\\Interview.FireworkStore.Core.csproj",
+        "packagesPath": "C:\\Users\\Moniek\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moniek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\repos\\LocalNugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.eprim.pl/MetaBOF2021/_packaging/metaBOFFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\repos\\Interview.Task\\Interview.FireworkStore.Resources\\Interview.FireworkStore.Resources.csproj": {
+                "projectPath": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Resources\\Interview.FireworkStore.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\Interview.Task\\Interview.FireworkStore.Resources\\Interview.FireworkStore.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Resources\\Interview.FireworkStore.Resources.csproj",
+        "projectName": "Interview.FireworkStore.Resources",
+        "projectPath": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Resources\\Interview.FireworkStore.Resources.csproj",
+        "packagesPath": "C:\\Users\\Moniek\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\Interview.Task\\Interview.FireworkStore.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Moniek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\repos\\LocalNugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.eprim.pl/MetaBOF2021/_packaging/metaBOFFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
